@@ -7,7 +7,7 @@ import Highlights from './components/Highlights.vue';
 import Coords from './components/Coords.vue';
 import Humidity from './components/Humidity.vue';
 
-const city = ref('Paris')
+const city = ref('Faridabad')
 const weatherInfo = ref(null)
 const isError = computed(() => weatherInfo.value?.cod !== 200)
 
